@@ -71,9 +71,9 @@ const unsigned char bytes_6070_6[] = {
         SHA1_BLOCK_SIZE,                                            \
         count_##n,                                                  \
         sizeof(pass_##n) - 1,                                       \
-        pass_##n,                                                   \
+        (const BYTE*)pass_##n,                                      \
         sizeof(salt_##n) - 1,                                       \
-        salt_##n,                                                   \
+        (const BYTE*)salt_##n,                                      \
         sizeof(derived_##n),                                        \
         derived_##n                                                 \
     );                                                              \
