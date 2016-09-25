@@ -35,4 +35,7 @@ result = pbkdf2_derive_bytes_hmac(
 if(result != 0) {
     /* Failed to derive bytes. */
 }
+
+CryptDestroyHash(hash_sha256);
+CryptReleaseContext(provider, 0);
 ```
