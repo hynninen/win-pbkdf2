@@ -42,4 +42,4 @@ CryptReleaseContext(provider, 0);
 
 # License
 
-See the [README](README) file for the license.
+See the [LICENSE](LICENSE) file for the license.
