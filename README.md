@@ -39,3 +39,7 @@ if(result != 0) {
 CryptDestroyHash(hash_sha256);
 CryptReleaseContext(provider, 0);
 ```
+
+# License
+
+See the [README](README) file for the license.
